@@ -12,10 +12,15 @@ image
 Has un request GET a la URL https://www.escuelaing.edu.co/es/ y verifica el body de respuesta en las opciones Pretty, Raw, Preview.
 
 Pretty
+
 ![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/e89f137d-5b26-4e0b-ac16-5e1e3bc6de9e)
+
 Raw
+
 ![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/dddbf873-2792-44c6-a02b-d55d2cef4eed)
+
 Preview
+
 ![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/16ef0fe0-80d5-4c57-8d19-a8b9bd83561e)
 
 Ahora has otro request GET al recurso https://dummyjson.com/todos, nuevamente verifica el body en varias opciones.
