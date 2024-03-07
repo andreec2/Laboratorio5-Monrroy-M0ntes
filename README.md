@@ -59,7 +59,33 @@ La siguiente misión es ejecutar una aplicación react localmente:
 
 Abre la aplicación https://codesandbox.io/s/react-js-simple-calculator-pefmr, loguéate con GitHub y juega cambiando los parámetros como colores y duplicando las líneas del archivo App.js con tags como <ResultComponent ...> en la función render.
 
-¿Qué hace cada uno de los archivos en la aplicación? . ├── package.json ├── public │   └── index.html └── src ├── App.js ├── components │   ├── KeyPadComponent.js │   └── ResultComponent.js ├── index.js └── styles.css
+![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/c3f1a856-bcac-465a-961e-c35d6327af8f)
+
+![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/57f9936a-53ca-401c-b869-b0294dedeef5)
+
+![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/3dc69bee-cb1c-40d9-9975-d314e0b6abe2)
+
+¿Qué hace cada uno de los archivos en la aplicación? 
+
+├── package.json 
+
+├── public │   
+
+└── index.html 
+
+└── src 
+
+├── App.js 
+
+├── components │   
+
+├── KeyPadComponent.js │   
+
+└── ResultComponent.js 
+
+├── index.js 
+
+└── styles.css
 
 Después de haber visto los cambios, vuelve a abrir la URL original https://codesandbox.io/s/react-js-simple-calculator-pefmr y sigue los siguientes pasos:
 
@@ -67,7 +93,13 @@ Descargar código en un Zip
 Descomprimir el Zip en la carpeta de proyectos de software, (en ciertos PC solo funciona 7-Zip)
 Abrir una terminal de Git Bash en la carpeta descomprimida
 Instalar las dependencias con npm install
-Iniciar la aplicación con npm star, en algunos computadores con versiones antiguas de nodejs hay que agregar NODE_OPTIONS=--openssl-legacy-provider npm run start
+
+![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/0a4fe3a8-321c-4b8b-96ab-2686ccf833f8)
+
+Iniciar la aplicación con npm start, en algunos computadores con versiones antiguas de nodejs hay que agregar NODE_OPTIONS=--openssl-legacy-provider npm run start
 Si te sale el Firewall dale click en cancelar
+
+![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/69da5259-c1e1-4b6f-bcf5-e78bcc7395bd)
+
 Abrir la ruta http://localhost:3000/ en un navegador web como Firefox o Google Chrome
 Ahora, haz el request GET http://localhost:3000/ usando Postman, y revisa si el body de la respuesta es igual a alguno de los archivos del proyecto. Significa eso que es un recurso web dinámico o estático?
