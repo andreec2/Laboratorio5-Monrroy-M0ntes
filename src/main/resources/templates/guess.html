@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,11 @@
 </head>
 <body>
 <form action="/guess" method="post">
+    <p th:text="${message}"></p>
     <label for="numero1">Número 1:</label><br>
     <input type="number" id="numero1" name="numero1"><br><br>
     <input type="submit" value="Enviar">
+    <input type="submit" name="reiniciar" value="Reiniciar">
 </form>
 </body>
 </html>
