@@ -67,25 +67,29 @@ Abre la aplicación https://codesandbox.io/s/react-js-simple-calculator-pefmr, l
 
 ¿Qué hace cada uno de los archivos en la aplicación? 
 
-├── package.json 
+*index.html*
 
-├── public │   
+Este archivo HTML es el archivo de entrada principal para una aplicación web desarrollada utilizando React, un popular marco de trabajo de JavaScript para construir interfaces de usuario. 
 
-└── index.html 
+*App.js*
 
-└── src 
+Este archivo JavaScript define el componente principal de una calculadora simple construida con React, incluyendo la lógica para manejar las interacciones del usuario y mostrar el resultado en la interfaz de usuario.
 
-├── App.js 
+*KeyPadComponent.js*
 
-├── components │   
+Este componente define los botones de la calculadora y maneja los eventos de clic en esos botones, comunicándose con el componente principal a través de la función onClick pasada como una prop.
 
-├── KeyPadComponent.js │   
+*ResultComponent.js* 
 
-└── ResultComponent.js 
+Este componente define el área donde se mostrará el resultado de la calculadora y muestra el resultado dentro de un párrafo, utilizando la prop result pasada al componente.
 
-├── index.js 
+*index.js* 
 
-└── styles.css
+Este archivo se encarga de iniciar la aplicación React y renderizar el componente principal App en el DOM dentro del elemento con el id "root", todo ello dentro de un entorno de modo estricto para facilitar el desarrollo.
+
+*styles.css*
+
+Estos estilos controlan el diseño y la apariencia de los diferentes elementos de la calculadora, como el área de visualización del resultado, los botones y el diseño general de la calculadora.
 
 Después de haber visto los cambios, vuelve a abrir la URL original https://codesandbox.io/s/react-js-simple-calculator-pefmr y sigue los siguientes pasos:
 
