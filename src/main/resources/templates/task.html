@@ -1,0 +1,30 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Task page</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<h1>Task details</h1>
+<div class = "main_container">
+    <div class="row">
+        <div class="left">User Id:</div>
+        <div class="left" th:text="${task.userId}"></div>
+    </div>
+
+    <div class="row">
+        <div class="left">Id: </div>
+        <div class="left" th:text="${task.id}"></div>
+    </div>
+
+    <div class="row">
+        <div class="left">Title: </div>
+        <div class="left" th:text="${task.title}"></div>
+    </div>
+
+    <div class="row">
+        <div class="left">Completed: </div>
+        <div class="left" th:text="${task.completed}"></div>
+    </div>
+
+</body>
+</html>
