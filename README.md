@@ -4,6 +4,8 @@ INTRODUCCIÓN A PROYECTOS WEB
 PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 Usaremos las siguientes aplicaciones como cliente HTTP
 
+
+
 Postman
 Telnet
 Abre la aplicación Postman, lo usaremos para hacer una solicitud a un servidor HTTP, al abrirlo indentifica qué controles de Postman corresponde a los elementos de entrada y salida de un servicio HTTP:
