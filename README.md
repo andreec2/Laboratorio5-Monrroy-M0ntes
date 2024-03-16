@@ -10,6 +10,7 @@ Haga clic en Dependencias y seleccione Spring Web , Thymeleaf y Spring Boot DevT
 Haga clic en Generar .
 Descargue el archivo ZIP resultante, que es un archivo de una aplicación web configurada con sus opciones.
 
+
 ![image](https://github.com/andreec2/Laboratorio5-Monrroy-M0ntes/assets/99145156/53050fc3-facf-4905-9dbc-c0251ffc28b6)
 
 **Crear un controlador web**
