@@ -2,6 +2,8 @@
 
 **Comenzando con Spring Inicializr**
 
+
+
 Navegue a https://start.spring.io . Este servicio incorpora todas las dependencias que necesita para una aplicación y realiza la mayor parte de la configuración por usted.
 Elija Gradle o Maven y el idioma que desea utilizar. Esta guía asume que usted eligió Java.
 Haga clic en Dependencias y seleccione Spring Web , Thymeleaf y Spring Boot DevTools .
